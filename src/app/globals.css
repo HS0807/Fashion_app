@@ -1,0 +1,15 @@
+@import "tailwindcss";
+.font-black {
+  font-family: var(--font-poppins-black), sans-serif;
+}
+
+.font-medium {
+  font-family: var(--font-poppins-medium), sans-serif;
+}
+
+.font-regular {
+  font-family: var(--font-poppins-regular), sans-serif;
+}
+
+
+C:\Users\ADMIN\OneDrive\Documents
