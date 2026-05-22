@@ -5,16 +5,16 @@ import { FaArrowRight } from "react-icons/fa6";
 
 export default function Favouritesection() {
     return (
-        <section className='px-4 sm:px-6 md:px-10 lg:px-14 py-8 sm:py-10 md:py-12'>
+        <section className='px-4 sm:px-6 md:px-10 lg:px-14 py-10 sm:py-10 md:py-22'>
             <div className='max-w-7xl mx-auto'>
                 <div className='mb-8'>
-                    <h1 className='text-2xl sm:text-3xl md:text-4xl font-black'>Young&apos;s Favourite</h1>
+                    <h1 className='text-[20px] sm:text-2xl md:text-2xl lg:text-[28px] font-black mb-6 md:mb-8 text-left pl-2 sm:pl-3 md:pl-5 lg:pl-1'>Young&apos;s Favourite</h1>
                 </div>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8'>
-                    <div className="space-y-4 bg-white rounded-3xl overflow-hidden shadow-sm">
-                        <Image className="rounded-t-3xl w-full h-[260px] sm:h-[300px] md:h-[340px] object-cover" src="/assets/fav1.png" alt="" width={700} height={500} />
-                        <div className='p-5 md:p-6'>
+                    <div className="space-y-4 bg-white rounded-3xl overflow-hidden ">
+                        <Image className="rounded-t-3xl w-full h-[320px] sm:h-[360px] md:h-[420px] object-cover" src="/assets/fav1.png" alt="" width={700} height={500} />
+                        <div className='pl-3 pr-5 py-5 md:pl-4 md:pr-6 md:py-6'>
                             <div className="flex items-center justify-between gap-4">
                                 <div>
                                     <h2 className='font-medium text-base sm:text-lg md:text-xl'>Trending on instagram</h2>
@@ -27,9 +27,9 @@ export default function Favouritesection() {
                         </div>
                     </div>
 
-                    <div className="space-y-4 bg-white rounded-3xl overflow-hidden shadow-sm">
-                        <Image className="rounded-t-3xl w-full h-[260px] sm:h-[300px] md:h-[340px] object-cover" src="/assets/fav2.png" alt="" width={700} height={500} />
-                        <div className='p-5 md:p-6'>
+                    <div className="space-y-4 bg-white rounded-3xl overflow-hidden">
+                        <Image className="rounded-t-3xl w-full h-[320px] sm:h-[360px] md:h-[420px] object-cover" src="/assets/fav2.png" alt="" width={700} height={500} />
+                        <div className='pl-3 pr-5 py-5 md:pl-4 md:pr-6 md:py-6'>
                             <div className="flex items-center justify-between gap-4">
                                 <div>
                                     <h2 className='font-medium text-base sm:text-lg md:text-xl'>All Under $40</h2>

@@ -17,11 +17,11 @@ export default function Community() {
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         placeholder='Enter your email'
-                        className='w-full rounded border border-white/80 bg-white/90 px-4 sm:px-5 py-2 sm:py-3 pr-24 sm:pr-28 text-sm sm:text-base text-black focus:border-white focus:outline-none focus:ring-2 focus:ring-white/60'
+                        className='w-full rounded border border-white/80 bg-white/90 px-4 sm:px-5 py-3 sm:py-3 pr-0 sm:pr-28 text-sm sm:text-base text-black focus:border-white focus:outline-none focus:ring-2 focus:ring-white/60'
                     />
                     <button
                         type='button'
-                        className='absolute right-1 top-1/2 -translate-y-1/2 rounded bg-black px-3 sm:px-5 py-1.5 sm:py-2 text-regular text-sm sm:text-xl text-white transition hover:bg-gray-900'
+                        className='mt-3 sm:mt-0 sm:absolute right-1 top-1/2 sm:-translate-y-1/2 rounded bg-black px-3 sm:px-5 py-3 text-regular text-sm sm:text-base text-white transition hover:bg-gray-900 w-full sm:w-auto'
                         onClick={() => console.log('Send clicked:', email)}>SEND</button>
                 </div>
             </div>

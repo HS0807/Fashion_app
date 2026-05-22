@@ -5,32 +5,32 @@ export default function Footer() {
   return (
     <footer className="bg-black">
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
-        <div className="grid gap-8 sm:gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 items-start">
-          <div className="space-y-6 lg:col-span-2">
+        <div className="grid gap-8 sm:gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-5 items-start">
+          <div className="space-y-6 lg:col-span-2 text-center md:text-left mx-auto md:mx-0">
             <div>
               <h2 className="text-lg sm:text-2xl md:text-3xl font-black uppercase tracking-[0.12em] text-white">
                 FASHION
               </h2>
-              <p className="mt-4 max-w-full sm:max-w-sm text-sm sm:text-base md:text-base text-[#8E8E8E] leading-6 md:leading-7">
-                Complete your style with awesome clothes from us.
+              <p className="mt-4 max-w-full sm:max-w-sm md:max-w-md mx-auto md:mx-0 text-sm sm:text-base md:text-base text-[#8E8E8E] leading-6 md:leading-7">
+                Complete your style with awesome <br/>clothes from us.
               </p>
             </div>
             <div className="space-y-3">
             
-              <div className="flex flex-wrap items-center gap-3">
-                <a href="#" className="inline-flex h-10 sm:h-11 w-10 sm:w-11 items-center justify-center rounded-xl bg-slate-800 text-slate-200 transition hover:bg-slate-700 hover:text-white">
+              <div className="flex flex-wrap justify-center md:justify-start items-center gap-3  ">
+                <a href="#" className="inline-flex h-10 sm:h-11 w-10 sm:w-11 items-center justify-center rounded-xl bg-[#EBD96B] text-black transition hover:bg-slate-700 hover:text-white">
                   <span className="sr-only">Facebook</span>
                   <FaFacebookF className="h-4 sm:h-5 w-4 sm:w-5" aria-hidden="true" />
                 </a>
-                <a href="#" className="inline-flex h-10 sm:h-11 w-10 sm:w-11 items-center justify-center rounded-xl bg-slate-800 text-slate-200 transition hover:bg-slate-700 hover:text-white">
+                <a href="#" className="inline-flex h-10 sm:h-11 w-10 sm:w-11 items-center justify-center rounded-xl bg-[#EBD96B] text-black transition hover:bg-slate-700 hover:text-white">
                   <span className="sr-only">Instagram</span>
                   <FaInstagram className="h-4 sm:h-5 w-4 sm:w-5" aria-hidden="true" />
                 </a>
-                <a href="#" className="inline-flex h-10 sm:h-11 w-10 sm:w-11 items-center justify-center rounded-xl bg-slate-800 text-slate-200 transition hover:bg-slate-700 hover:text-white">
+                <a href="#" className="inline-flex h-10 sm:h-11 w-10 sm:w-11 items-center justify-center rounded-xl bg-[#EBD96B] text-black transition hover:bg-slate-700 hover:text-white">
                   <span className="sr-only">Twitter</span>
                   <FaTwitter className="h-4 sm:h-5 w-4 sm:w-5" aria-hidden="true" />
                 </a>
-                <a href="#" className="inline-flex h-10 sm:h-11 w-10 sm:w-11 items-center justify-center rounded-xl bg-slate-800 text-slate-200 transition hover:bg-slate-700 hover:text-white">
+                <a href="#" className="inline-flex h-10 sm:h-11 w-10 sm:w-11 items-center justify-center rounded-xl bg-[#EBD96B] text-black transition hover:bg-slate-700 hover:text-white">
                   <span className="sr-only">LinkedIn</span>
                   <FaLinkedinIn className="h-4 sm:h-5 w-4 sm:w-5" aria-hidden="true" />
                 </a>
