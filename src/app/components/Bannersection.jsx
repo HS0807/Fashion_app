@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Bannersection() {
     return (
-        <section className='bg-[#E0C340] py-8 sm:py-10 lg:py-12'>
+        <section className='bg-[#E0C340] py-8 sm:py-10 lg:py-0.5'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 flex flex-col-reverse md:flex-row items-stretch gap-6 sm:gap-8 md:min-h-[520px]'>
                 <div className='w-full md:w-1/2 h-[320px] sm:h-[420px] md:h-[520px] lg:h-[680px]'>
                     <Image src='/assets/girl1.png' alt='Banner' width={1200} height={1500} className='w-full h-full object-cover rounded-2xl' />
