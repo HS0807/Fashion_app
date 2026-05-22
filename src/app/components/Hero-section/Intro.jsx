@@ -20,9 +20,9 @@ export default function Intro() {
                     <button className='bg-black text-white px-4 sm:px-5 py-2 sm:py-3 text-sm sm:text-base rounded hover:bg-gray-800 transition mb-10' >SHOP NOW</button>
                 </div>
 
-                <div className='flex justify-center md:justify-start items-center m'>
+                <div className='flex justify-center md:justify-start items-center m md:self-end'>
                     <div className='relative w-full max-w-[360px] sm:max-w-[460px] md:max-w-[560px] lg:max-w-[660px] h-[320px] sm:h-[380px] md:h-[460px] lg:h-[520px] rounded-[28px] overflow-hidden'>
-                        <Image src='/assets/home-image.png' alt='Hero Image' fill className='object-cover' />
+                        <Image src='/assets/home-image.png' alt='Hero Image' fill  />
                     </div>
                 </div>
             </div>
