@@ -8,7 +8,13 @@ export default function Favouritesection() {
         <section className='px-4 sm:px-6 md:px-10 lg:px-14 py-10 sm:py-10 md:py-22'>
             <div className='max-w-7xl mx-auto'>
                 <div className='mb-8'>
-                    <h1 className='text-[20px] sm:text-2xl md:text-2xl lg:text-[28px] font-black mb-6 md:mb-8 text-left pl-2 sm:pl-3 md:pl-5 lg:pl-1'>Young&apos;s Favourite</h1>
+                    <h1 className='text-[20px] sm:text-2xl md:text-2xl lg:text-[28px] font-black mb-6 md:mb-8 text-left pl-2 sm:pl-3 md:pl-5 lg:pl-1'>
+                        <span>Young&apos;s Fa</span>
+                        <span className='relative z-0 inline-block'>
+                            <Image src='/assets/Vector.png'  alt='' width={126} height={18} className='absolute left-0 top-[72%] z-0 h-[0.48em] w-full -translate-y-1/2'aria-hidden='true'/>
+                            <span className='relative z-10'>vourite</span>
+                        </span>
+                    </h1>
                 </div>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8'>
