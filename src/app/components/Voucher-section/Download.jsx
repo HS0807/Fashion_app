@@ -4,8 +4,8 @@ import Image from 'next/image'
 export default function Download() {
     return (
         <section>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-8 px-4 sm:px-6 md:px-12 py-8 md:py-12 items-center'>
-                <div className='w-full'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-8 px-4 sm:px-6 md:px-12 py-4 md:py-8 items-center'>
+                <div className='w-full ml-40'>
                     <div>
                         <h2 className='text-3xl sm:text-4xl md:text-[3rem] font-black pb-1.5'>DOWNLOAD APP &</h2>
                         <h2 className='text-3xl sm:text-4xl md:text-[3rem] font-black'>GET THE VOUCHER!</h2>
@@ -22,7 +22,7 @@ export default function Download() {
                     </div>
                 </div>
                 
-                <div className='w-full flex justify-center md:justify-end'>
+                <div className='w-full flex justify-center md:justify-center '>
                     <div className='max-w-[220px] sm:max-w-[260px] md:max-w-[320px]'>
                         <Image src="/assets/Mobile.png" alt="" width={400} height={800} className='w-full h-auto' />
                     </div>
